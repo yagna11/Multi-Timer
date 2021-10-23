@@ -1,0 +1,100 @@
+body {
+  height: 100vh;
+  margin: 30;
+  padding: 30;
+  font-family: "Hahmlet", serif;
+  background: #e8dfe0;
+}
+
+#root {
+  height: 100vh;
+}
+
+h1,
+p {
+  margin: 5px;
+  padding: 5px;
+  font-size: 18px;
+}
+
+.App-header {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.App-title {
+  text-align: center;
+  font-size: 30px;
+}
+
+.initial-timer-container {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  text-overflow: hidden;
+  font-family: "Hahmlet", serif;
+}
+
+.time-input-container {
+  display: flex;
+}
+
+.time-input-container input {
+  width: 30px;
+}
+
+.time-countdown-container input {
+  width: 30px;
+}
+
+.item-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  height: 60%;
+  border: 1px black solid;
+  border-radius: 10px;
+  background: #c4aead;
+  padding: 30px;
+  margin: 20px;
+}
+
+.items {
+  display: flex;
+  justify-content: center;
+}
+
+.timers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.delete-timer-button {
+  display: inline-block;
+  padding: 0.35em 1.2em;
+  border: 0.1em solid #bb3e03;
+  margin: 10px;
+  border-radius: 10px;
+  font-weight: 200;
+  color: white;
+  background: #bb3e03;
+}
+
+.delete-timer-button:hover {
+  background: #ca6702;
+}
+
+button {
+  display: inline-block;
+  padding: 0.35em 0.9em;
+  border: 0.1em solid;
+  margin: 3px;
+  border-radius: 10px;
+  font-weight: 200;
+  color: white;
+  background: black;
+}
