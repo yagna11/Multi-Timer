@@ -1,6 +1,6 @@
-# Simultaneous Timers
+# Multi-Timer
 
-A simple webapp that allows user to set multiple timers at once. The user can set any number of simultaneously running timers. 
+A simple web app that allows users to set multiple timers at once. The user can set any number of simultaneously running timers. 
 
 #### User features
 - User can set multiple timers that run simultaneously
